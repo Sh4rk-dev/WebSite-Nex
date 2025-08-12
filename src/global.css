@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+
+@import "tailwindcss";
+
+:root {
+  font-variant-ligatures: none;
+}
+
+@font-face {
+  font-family: "gallery";
+  src: url("./fonts/GalleryModern.otf") format("opentype");
+}
+
+.kanit-regular {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kanit-medium {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.marcellus-regular {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@layer base {
+  :root {
+    --clip-shape-bottom-cut: polygon(85% 100%, 100% 85%, 100% 0, 0 0, 0 100%);
+  }
+}
+
+@theme {
+  /* Font Family */
+
+  --font-dm-sans: "DM Sans", sans-serif;
+  --font-gallery-modern: "gallery", sans-serif;
+  --font-plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+  --font-kanit: "Kanit", sans-serif;
+  --font-marcellus: "Marcellus", serif;
+
+  /* Color Main */
+
+  --color-custom-primary: #bff747;
+  --color-custom-secundary: #4a24e8;
+  --color-custom-tertiary: #ffd600;
+
+  /* Colors */
+
+  --color-custom-title: #121212;
+  --color-custom-white: #ffffff;
+  --color-custom-body: #797e88;
+  --color-custom-smoke-1: #f4efff;
+  --color-custom-smoke-2: #f8f8f8;
+  --color-custom-border: #d8dde1;
+  --color-custom-dark-Blue: #121721;
+  --color-custom-beige-1: #fbffe9;
+  --color-custom-beige-2: #f0efe9;
+  --color-custom-beige-3: #f9f2eb;
+  --color-custom-beige-4: #faf6f2;
+  --color-custom-orange: #ff6633;
+  --color-custom-purple: #967dff;
+  --color-custom-yellow: #fffb00;
+}
