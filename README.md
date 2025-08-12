@@ -1,69 +1,69 @@
-# React + TypeScript + Vite
+# Nex Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website desenvolvido em React + TypeScript + Vite com TailwindCSS.
 
-Currently, two official plugins are available:
+## Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 19.1** - Biblioteca JavaScript
+- **TypeScript** - Superset tipado do JavaScript
+- **Vite 7.1** - Build tool e servidor de desenvolvimento
+- **TailwindCSS 4.1** - Framework CSS
+- **Framer Motion** - Biblioteca de animações
+- **React Query** - Gerenciamento de estado para requisições
+- **React Hook Form** - Gerenciamento de formulários
 
-## Expanding the ESLint configuration
+## Pré-requisitos
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Node.js (versão 16 ou superior)
+- npm ou yarn
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Instalação
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+```bash
+# Clone o repositório
+git clone https://github.com/Sh4rk-dev/WebSite-Nex.git
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Entre no diretório
+cd WebSite-Nex
+
+# Instale as dependências
+npm install
+# ou
+yarn install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Scripts Disponíveis
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+# Executar em modo desenvolvimento
+npm run dev
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Fazer build para produção
+npm run build
+
+# Executar linting
+npm run lint
+
+# Preview do build de produção
+npm run preview
 ```
+
+## Desenvolvimento
+
+Para iniciar o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+O projeto estará disponível em `http://localhost:5173`
+
+## Build
+
+Para gerar o build de produção:
+
+```bash
+npm run build
+```
+
+Os arquivos serão gerados na pasta `dist/`.
