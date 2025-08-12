@@ -7,6 +7,7 @@ import {
   Search,
   X,
 } from 'lucide-react';
+import logo from '/public/logo.png';
 import { useModal } from '../hooks/useModal';
 import { useSideBar } from '../hooks/useSideBar';
 import { Button } from './Button';
@@ -19,11 +20,7 @@ export function Header() {
     <header className="flex items-center justify-evenly shadow-md md:block lg:justify-between">
       <div className="my-6 flex w-full flex-row items-center justify-between px-20 lg:justify-between">
         <picture className="hidden pl-5 xl:block">
-          <img
-            alt="logo.png"
-            className="h-auto w-auto"
-            src="../public/logo.png"
-          />
+          <img alt="logo.png" className="h-auto w-auto" src={logo} />
         </picture>
 
         <ul className="hidden flex-row items-center gap-12.5 lg:flex">

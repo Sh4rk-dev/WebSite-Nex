@@ -1,5 +1,18 @@
 import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
+import avatar from '/public/avatar.png';
+import backgroundWoman from '/public/background-woman.png';
+import group from '/public/group.png';
+import loopIcon from '/public/LoopIcon.png';
+import marketing from '/public/Marketing.png';
+import penIcon from '/public/PenIcon.png';
+import photo01 from '/public/photo-01.png';
+import photo02 from '/public/photo-02.png';
+import photo03 from '/public/photo-03.png';
+import photoNotebook from '/public/photo-notebook.png';
+import rocketIcon from '/public/RocketIcon.png';
+import uxui from '/public/ux-ui.png';
+import video from '/public/video.png';
 import { Button } from '../components/Button';
 import { Card } from '../components/Card';
 import { Footer } from '../components/Footer';
@@ -38,7 +51,7 @@ export function App() {
 
       <main className="itens-center flex w-full flex-col justify-center">
         <section className="relative px-7 pb-16">
-          <div className="-z-10 absolute inset-0 size-full bg-[url('../public/texture.png')] opacity-10" />
+          <div className="-z-10 absolute inset-0 size-full bg-[url('/public/texture.png')] opacity-10" />
 
           <div className="container relative mx-auto mt-10 max-w-7xl md:mt-0">
             <motion.div
@@ -100,7 +113,7 @@ export function App() {
                         alt="photo-01"
                         className="rounded-full border-2 border-white"
                         height={48}
-                        src="../public/photo-01.png"
+                        src={photo01}
                         width={48}
                       />
                     </picture>
@@ -110,7 +123,7 @@ export function App() {
                         alt="photo-02"
                         className="rounded-full border-2 border-white"
                         height={48}
-                        src="../public/photo-02.png"
+                        src={photo02}
                         width={48}
                       />
                     </picture>
@@ -120,7 +133,7 @@ export function App() {
                         alt="photo-03"
                         className="rounded-full border-2 border-white"
                         height={48}
-                        src="../public/photo-03.png"
+                        src={photo03}
                         width={48}
                       />
                     </picture>
@@ -159,11 +172,7 @@ export function App() {
                 >
                   <div className="-ml-12 rounded-[50px] bg-custom-title p-5">
                     <picture>
-                      <img
-                        alt="avatar"
-                        className="w-22"
-                        src="../public/avatar.png"
-                      />
+                      <img alt="avatar" className="w-22" src={avatar} />
                     </picture>
                   </div>
                 </motion.div>
@@ -185,9 +194,9 @@ export function App() {
         <section>
           <picture>
             <img
-              alt="texture"
+              alt="backgroundWoman"
               className="h-72 w-full object-cover lg:h-auto"
-              src="../public/background-woman.png"
+              src={backgroundWoman}
             />
           </picture>
         </section>
@@ -209,8 +218,8 @@ export function App() {
               </motion.h1>
 
               <motion.div
-                initial={{ opacity: 0 }} // estado inicial
-                transition={{ delay: 0.5, duration: 1.5, ease: 'easeInOut' }} // anima quando entrar na tela
+                initial={{ opacity: 0 }}
+                transition={{ delay: 0.5, duration: 1.5, ease: 'easeInOut' }}
                 viewport={{ once: true }}
                 whileInView={{ opacity: 1 }}
               >
@@ -491,7 +500,7 @@ export function App() {
               <img
                 alt="video.png"
                 className="z-0 h-72 w-full object-cover lg:h-auto"
-                src="../public/video.png"
+                src={video}
               />
             </picture>
 
@@ -553,7 +562,7 @@ export function App() {
                   description="Conduct thorough market of the research<br /> to the fast target audience behaviors.<br /> Submit as many design tasks"
                   step={1}
                   title="Research and Strategy"
-                  urlImage="../public/RocketIcon.png"
+                  urlImage={rocketIcon}
                 />
               </motion.div>
 
@@ -567,7 +576,7 @@ export function App() {
                   description="Conduct thorough market of the research<br /> to the fast target audience behaviors.<br /> Submit as many design tasks"
                   step={2}
                   title="Plan Customization"
-                  urlImage="../public/PenIcon.png"
+                  urlImage={penIcon}
                 />
               </motion.div>
 
@@ -581,7 +590,7 @@ export function App() {
                   description="Conduct thorough market of the research<br /> to the fast target audience behaviors.<br /> Submit as many design tasks"
                   step={3}
                   title="Finished & User Testing"
-                  urlImage="../public/LoopIcon.png"
+                  urlImage={loopIcon}
                 />
               </motion.div>
             </div>
@@ -645,7 +654,7 @@ export function App() {
                   <img
                     alt="photo-notebook.png"
                     className="-ml-13"
-                    src="../public/photo-notebook.png"
+                    src={photoNotebook}
                   />
                 </picture>
               </motion.picture>
@@ -660,12 +669,7 @@ export function App() {
                   whileInView={{ opacity: 1 }}
                 >
                   <picture>
-                    <img
-                      alt=""
-                      height={297}
-                      src="../public/group.png"
-                      width={283}
-                    />
+                    <img alt="group" height={297} src={group} width={283} />
                   </picture>
                 </motion.picture>
 
@@ -782,7 +786,7 @@ export function App() {
                       >
                         <ServicesCard
                           text="Marketing Strategy"
-                          url="../public/Marketing.png"
+                          url={marketing}
                         />
                       </motion.div>
 
@@ -796,10 +800,7 @@ export function App() {
                         viewport={{ once: true }}
                         whileInView={{ opacity: 1 }}
                       >
-                        <ServicesCard
-                          text="UX/UI Solution"
-                          url="../public/ux-ui.png"
-                        />
+                        <ServicesCard text="UX/UI Solution" url={uxui} />
                       </motion.div>
                     </div>
                   </div>
