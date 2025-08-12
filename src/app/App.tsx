@@ -20,19 +20,6 @@ import { ServicesCard } from '../components/ServiceCard';
 import { Steps } from '../components/Steps';
 import { useModal } from '../hooks/useModal';
 import { useSideBar } from '../hooks/useSideBar';
-import avatar from '../public/avatar.png';
-import backgroundWoman from '../public/background-woman.png';
-import group from '../public/group.png';
-import loopIcon from '../public/LoopIcon.png';
-import marketing from '../public/Marketing.png';
-import penIcon from '../public/PenIcon.png';
-import photo01 from '../public/photo-01.png';
-import photo02 from '../public/photo-02.png';
-import photo03 from '../public/photo-03.png';
-import photoNotebook from '../public/photo-notebook.png';
-import rocketIcon from '../public/RocketIcon.png';
-import uxui from '../public/ux-ui.png';
-import video from '../public/video.png';
 import { cn } from '../utils/utils';
 
 export function App() {
@@ -113,7 +100,7 @@ export function App() {
                         alt="photo-01"
                         className="rounded-full border-2 border-white"
                         height={48}
-                        src={photo01}
+                        src="photo-01.png"
                         width={48}
                       />
                     </picture>
@@ -123,7 +110,7 @@ export function App() {
                         alt="photo-02"
                         className="rounded-full border-2 border-white"
                         height={48}
-                        src={photo02}
+                        src="/photo-02.png"
                         width={48}
                       />
                     </picture>
@@ -133,7 +120,7 @@ export function App() {
                         alt="photo-03"
                         className="rounded-full border-2 border-white"
                         height={48}
-                        src={photo03}
+                        src="/photo-03.png"
                         width={48}
                       />
                     </picture>
@@ -172,7 +159,7 @@ export function App() {
                 >
                   <div className="-ml-12 rounded-[50px] bg-custom-title p-5">
                     <picture>
-                      <img alt="avatar" className="w-22" src={avatar} />
+                      <img alt="avatar" className="w-22" src="/avatar.png" />
                     </picture>
                   </div>
                 </motion.div>
@@ -196,7 +183,7 @@ export function App() {
             <img
               alt="backgroundWoman"
               className="h-72 w-full object-cover lg:h-auto"
-              src={backgroundWoman}
+              src="/background-woman.png"
             />
           </picture>
         </section>
@@ -500,7 +487,7 @@ export function App() {
               <img
                 alt="video.png"
                 className="z-0 h-72 w-full object-cover lg:h-auto"
-                src={video}
+                src="/video.png"
               />
             </picture>
 
@@ -562,7 +549,7 @@ export function App() {
                   description="Conduct thorough market of the research<br /> to the fast target audience behaviors.<br /> Submit as many design tasks"
                   step={1}
                   title="Research and Strategy"
-                  urlImage={rocketIcon}
+                  urlImage="/RocketIcon.png"
                 />
               </motion.div>
 
@@ -576,7 +563,7 @@ export function App() {
                   description="Conduct thorough market of the research<br /> to the fast target audience behaviors.<br /> Submit as many design tasks"
                   step={2}
                   title="Plan Customization"
-                  urlImage={penIcon}
+                  urlImage="/PenIcon.png"
                 />
               </motion.div>
 
@@ -590,7 +577,7 @@ export function App() {
                   description="Conduct thorough market of the research<br /> to the fast target audience behaviors.<br /> Submit as many design tasks"
                   step={3}
                   title="Finished & User Testing"
-                  urlImage={loopIcon}
+                  urlImage="/LoopIcon.png"
                 />
               </motion.div>
             </div>
@@ -654,7 +641,7 @@ export function App() {
                   <img
                     alt="photo-notebook.png"
                     className="-ml-13"
-                    src={photoNotebook}
+                    src="/photo-notebook.png"
                   />
                 </picture>
               </motion.picture>
@@ -669,7 +656,12 @@ export function App() {
                   whileInView={{ opacity: 1 }}
                 >
                   <picture>
-                    <img alt="group" height={297} src={group} width={283} />
+                    <img
+                      alt="group"
+                      height={297}
+                      src="/group.png'"
+                      width={283}
+                    />
                   </picture>
                 </motion.picture>
 
@@ -786,7 +778,7 @@ export function App() {
                       >
                         <ServicesCard
                           text="Marketing Strategy"
-                          url={marketing}
+                          url="/Marketing.png"
                         />
                       </motion.div>
 
@@ -800,7 +792,7 @@ export function App() {
                         viewport={{ once: true }}
                         whileInView={{ opacity: 1 }}
                       >
-                        <ServicesCard text="UX/UI Solution" url={uxui} />
+                        <ServicesCard text="UX/UI Solution" url="/ux-ui.png" />
                       </motion.div>
                     </div>
                   </div>
