@@ -100,7 +100,7 @@ export function App() {
                         alt="photo-01"
                         className="rounded-full border-2 border-white"
                         height={48}
-                        src="photo-01.png"
+                        src="/photo-01.png"
                         width={48}
                       />
                     </picture>
@@ -659,7 +659,7 @@ export function App() {
                     <img
                       alt="group"
                       height={297}
-                      src="/group.png'"
+                      src="/group.png"
                       width={283}
                     />
                   </picture>
