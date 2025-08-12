@@ -100,7 +100,7 @@ export function App() {
                         alt="photo-01"
                         className="rounded-full border-2 border-white"
                         height={48}
-                        src="/photo-01.png"
+                        src="/Photo-01.png"
                         width={48}
                       />
                     </picture>
@@ -110,7 +110,7 @@ export function App() {
                         alt="photo-02"
                         className="rounded-full border-2 border-white"
                         height={48}
-                        src="/photo-02.png"
+                        src="/Photo-02.png"
                         width={48}
                       />
                     </picture>
@@ -120,7 +120,7 @@ export function App() {
                         alt="photo-03"
                         className="rounded-full border-2 border-white"
                         height={48}
-                        src="/photo-03.png"
+                        src="/Photo-03.png"
                         width={48}
                       />
                     </picture>
