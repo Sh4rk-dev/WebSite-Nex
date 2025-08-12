@@ -38,7 +38,7 @@ export function App() {
 
       <main className="itens-center flex w-full flex-col justify-center">
         <section className="relative px-7 pb-16">
-          <div className="-z-10 absolute inset-0 size-full bg-[url('./src/assets/texture.png')] opacity-10" />
+          <div className="-z-10 absolute inset-0 size-full bg-[url('../public/texture.png')] opacity-10" />
 
           <div className="container relative mx-auto mt-10 max-w-7xl md:mt-0">
             <motion.div
@@ -100,7 +100,7 @@ export function App() {
                         alt="photo-01"
                         className="rounded-full border-2 border-white"
                         height={48}
-                        src="./src/assets/photo-01.png"
+                        src="../public/photo-01.png"
                         width={48}
                       />
                     </picture>
@@ -110,7 +110,7 @@ export function App() {
                         alt="photo-02"
                         className="rounded-full border-2 border-white"
                         height={48}
-                        src="./src/assets/photo-02.png"
+                        src="../public/photo-02.png"
                         width={48}
                       />
                     </picture>
@@ -120,7 +120,7 @@ export function App() {
                         alt="photo-03"
                         className="rounded-full border-2 border-white"
                         height={48}
-                        src="./src/assets/photo-03.png"
+                        src="../public/photo-03.png"
                         width={48}
                       />
                     </picture>
@@ -162,7 +162,7 @@ export function App() {
                       <img
                         alt="avatar"
                         className="w-22"
-                        src="./src/assets/avatar.png"
+                        src="../public/avatar.png"
                       />
                     </picture>
                   </div>
@@ -187,7 +187,7 @@ export function App() {
             <img
               alt="texture"
               className="h-72 w-full object-cover lg:h-auto"
-              src="./src/assets/background-woman.png"
+              src="../public/background-woman.png"
             />
           </picture>
         </section>
@@ -491,7 +491,7 @@ export function App() {
               <img
                 alt="video.png"
                 className="z-0 h-72 w-full object-cover lg:h-auto"
-                src="./src/assets/video.png"
+                src="../public/video.png"
               />
             </picture>
 
@@ -553,7 +553,7 @@ export function App() {
                   description="Conduct thorough market of the research<br /> to the fast target audience behaviors.<br /> Submit as many design tasks"
                   step={1}
                   title="Research and Strategy"
-                  urlImage="./src/assets/RocketIcon.png"
+                  urlImage="../public/RocketIcon.png"
                 />
               </motion.div>
 
@@ -567,7 +567,7 @@ export function App() {
                   description="Conduct thorough market of the research<br /> to the fast target audience behaviors.<br /> Submit as many design tasks"
                   step={2}
                   title="Plan Customization"
-                  urlImage="./src/assets/PenIcon.png"
+                  urlImage="../public/PenIcon.png"
                 />
               </motion.div>
 
@@ -581,7 +581,7 @@ export function App() {
                   description="Conduct thorough market of the research<br /> to the fast target audience behaviors.<br /> Submit as many design tasks"
                   step={3}
                   title="Finished & User Testing"
-                  urlImage="./src/assets/LoopIcon.png"
+                  urlImage="../public/LoopIcon.png"
                 />
               </motion.div>
             </div>
@@ -645,7 +645,7 @@ export function App() {
                   <img
                     alt="photo-notebook.png"
                     className="-ml-13"
-                    src="./src/assets/photo-notebook.png"
+                    src="../public/photo-notebook.png"
                   />
                 </picture>
               </motion.picture>
@@ -663,7 +663,7 @@ export function App() {
                     <img
                       alt=""
                       height={297}
-                      src="./src/assets/group.png"
+                      src="../public/group.png"
                       width={283}
                     />
                   </picture>
@@ -782,7 +782,7 @@ export function App() {
                       >
                         <ServicesCard
                           text="Marketing Strategy"
-                          url="./src/assets/Marketing.png"
+                          url="../public/Marketing.png"
                         />
                       </motion.div>
 
@@ -798,7 +798,7 @@ export function App() {
                       >
                         <ServicesCard
                           text="UX/UI Solution"
-                          url="./src/assets/ux-ui.png"
+                          url="../public/ux-ui.png"
                         />
                       </motion.div>
                     </div>
