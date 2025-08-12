@@ -1,18 +1,5 @@
 import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
-import avatar from '/public/avatar.png';
-import backgroundWoman from '/public/background-woman.png';
-import group from '/public/group.png';
-import loopIcon from '/public/LoopIcon.png';
-import marketing from '/public/Marketing.png';
-import penIcon from '/public/PenIcon.png';
-import photo01 from '/public/photo-01.png';
-import photo02 from '/public/photo-02.png';
-import photo03 from '/public/photo-03.png';
-import photoNotebook from '/public/photo-notebook.png';
-import rocketIcon from '/public/RocketIcon.png';
-import uxui from '/public/ux-ui.png';
-import video from '/public/video.png';
 import { Button } from '../components/Button';
 import { Card } from '../components/Card';
 import { Footer } from '../components/Footer';
@@ -33,6 +20,19 @@ import { ServicesCard } from '../components/ServiceCard';
 import { Steps } from '../components/Steps';
 import { useModal } from '../hooks/useModal';
 import { useSideBar } from '../hooks/useSideBar';
+import avatar from '../public/avatar.png';
+import backgroundWoman from '../public/background-woman.png';
+import group from '../public/group.png';
+import loopIcon from '../public/LoopIcon.png';
+import marketing from '../public/Marketing.png';
+import penIcon from '../public/PenIcon.png';
+import photo01 from '../public/photo-01.png';
+import photo02 from '../public/photo-02.png';
+import photo03 from '../public/photo-03.png';
+import photoNotebook from '../public/photo-notebook.png';
+import rocketIcon from '../public/RocketIcon.png';
+import uxui from '../public/ux-ui.png';
+import video from '../public/video.png';
 import { cn } from '../utils/utils';
 
 export function App() {
