@@ -68,7 +68,6 @@ export const SearchModal = () => {
               <input
                 className="w-full rounded-l-md border-2 border-custom-primary bg-transparent py-2 pl-4 text-Custom-Gray-60 text-custom-white duration-300 focus:shadow-custom-primary/10 focus:shadow-lg focus:outline-none"
                 maxLength={9}
-                pattern="\(\d{2}\)\d{4}-\d{4}"
                 placeholder="Digite seu CEP"
                 type="text"
                 {...register('cep')}
