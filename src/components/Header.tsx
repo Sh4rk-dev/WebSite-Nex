@@ -87,7 +87,7 @@ export function Header() {
           </div>
 
           <div className="flex h-full flex-col px-5">
-            <div className="mb-60">
+            <div className="pb-20">
               <ul className="mt-15 flex flex-col items-start gap-10">
                 <li className="cursor-pointer font-bold font-dm-sans decoration-2 decoration-custom-primary underline-offset-8 hover:underline">
                   Home
