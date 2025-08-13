@@ -80,7 +80,7 @@ export function Header() {
               <img
                 alt="logo.png"
                 className="h-auto w-auto"
-                src="./src/assets/logo.png"
+                src="/public/logo.png"
               />
             </picture>
 
