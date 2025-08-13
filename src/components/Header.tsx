@@ -77,11 +77,7 @@ export function Header() {
         <div className="absolute top-0 left-0 z-20 h-full w-1/3 bg-white">
           <div className="mt-10 flex flex-row items-center justify-between px-5">
             <picture className="">
-              <img
-                alt="logo.png"
-                className="h-auto w-auto"
-                src="/public/logo.png"
-              />
+              <img alt="logo.png" className="h-auto w-auto" src="/logo.png" />
             </picture>
 
             <X
